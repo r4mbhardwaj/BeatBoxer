@@ -1,0 +1,29 @@
+# Ignore all files inside data/raw and data/processed, but keep the folder
+data/raw/*
+data/processed/*
+
+# Keep the folders themselves
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+.env/
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+
+# Poetry specific
+poetry.lock
+.venv/
+
+# IDE Specific
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.idea/
